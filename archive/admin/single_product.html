@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single recipe</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <script src="../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../assets/js/popper.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container  mb-3">
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="../public/index.html">Home</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="products.html">Products</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="tags.html">Categories</a>
+				</li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+				<li class="nav-item">
+					<a class="nav-link" href="tools.html">Tags</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contacts.html">Coontacts</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Pages</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">About</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Contact</a>
+					</div>
+				</li> 
+			</ul>
+		</div>
+	</nav>
+    <!-- end menu -->
+</div>
+    
+<div class="container mt-3">
+    <h1 class="text-center">Dog Calcium Food</h1>
+    <!-- nav -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#images">Images</a>
+        </li>
+    </ul>
+    
+    <!-- content -->
+    <div class="tab-content mt-3">
+        <!-- info -->
+        <div class="tab-pane fade show active" id="info">
+            <h2 class="text-center">Info</h2>
+            <a href="#" class="btn btn-primary mb-3" role="button">Edit product</a>
+
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <th>Name</th>
+                        <td>Dog Calcium Food</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>Category</th>
+                        <td>Eggs</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <th>Price</th>
+                        <td>20$</td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <th>Old Price</th>
+                        <td>25$</td>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <th>Description</th>
+                        <td>Shabby chic humblebrag banh mi bushwick, banjo kale chips meggings. Cred selfies sartorial, cloud bread disrupt blue bottle seitan. Dreamcatcher tousled bitters, health goth vegan venmo whatever street art lyft shabby chic pitchfork beard. Drinking vinegar poke tbh, iPhone coloring book polaroid truffaut tousled ramps pug trust fund letterpress. Portland four loko austin chicharrones bitters single-origin coffee. Leggings letterpress occupy pour-over.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- Images -->
+        <div class="tab-pane fade" id="images">
+            <h2 class="text-center">Images Product</h2>
+            <a href="#" class="btn btn-primary mb-3" role="button">Add Image</a>
+
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>
+						<img src="../assets/img/product/card/product-4.jpg">
+					</td>
+                    <td>
+                        <a href="#" class="btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>
+						<img src="../assets/img/product/card/product-5.jpg">
+					</td>
+                    <td>
+                        <a href="#" class="btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
